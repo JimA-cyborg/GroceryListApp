@@ -7,7 +7,6 @@ import store from './store'
 import { render } from 'react-dom';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
-console.log("Index.js is running")
 render(
     <Provider store={store}>
         <App />

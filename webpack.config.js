@@ -3,6 +3,9 @@ const path = require('path');
 module.exports = {
     entry: './client/index.js',
     mode: 'production',
+    performance: {
+        maxEntrypointSize: 250000
+    },
     output: {
         path: path.resolve(__dirname, 'build'),
         publicPath: '/',

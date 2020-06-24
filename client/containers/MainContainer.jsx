@@ -17,7 +17,7 @@ class MainContainer extends Component {
     render() {
         return(
             <div className="container">
-              <h1 id="header">HELLO WORLD!!!</h1>
+              <h1 id="header">Grocery Shopping List</h1>
             </div>
         )
     }
