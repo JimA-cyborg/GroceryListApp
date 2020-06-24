@@ -2,8 +2,8 @@ import React from 'react';
 
 const ItemDisplay = (props) => (
     <div className="itemDisplay">
-        <label>Item: </label>
-        <label>Quantity: </label>
+        <h3>Item: {props.item}</h3>
+        <label>{props.quantity}</label>
         <button>Edit</button>
         <button>Delete</button>
         <button>Increase Quantity</button>
