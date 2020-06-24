@@ -5,6 +5,11 @@ export const addItem = (text) => ({
     payload: text
 })
 
+export const deleteItem = (index) => (console.log('Index in actions: ',index),{
+    type: 'DELETE_ITEM',
+    payload: index
+})
+
 // export const increaseQuant = (quantity) = ({
 //     type: 'INCREASE_QUANT',
 //     payload: quantity

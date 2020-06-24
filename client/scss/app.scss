@@ -8,3 +8,9 @@ body {
     border: solid;
     border-color: $primaryColor;
 }
+
+.itemDisplay {
+    border: solid;
+    border-color: $secondaryColor;
+    color: $primaryColor;
+}
