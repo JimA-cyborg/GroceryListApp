@@ -5,12 +5,12 @@ export const addItem = (text) => ({
     payload: text
 })
 
-export const increaseQuant = (num) = ({
-    type: 'INCREASE_QUANT',
-    payload: num
-})
+// export const increaseQuant = (num) = ({
+//     type: 'INCREASE_QUANT',
+//     payload: num
+// })
 
-export const increaseQuant = (num) = ({
-    type: 'DECREASE_QUANT',
-    payload: num
-})
+// export const decreaseQuant = (num) = ({
+//     type: 'DECREASE_QUANT',
+//     payload: num
+// })

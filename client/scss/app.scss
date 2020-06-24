@@ -3,3 +3,8 @@
 body {
     background: $tertiaryColor;
 }
+
+#totals.innerBox {
+    border: solid;
+    border-color: $primaryColor;
+}

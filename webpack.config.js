@@ -3,9 +3,6 @@ const path = require('path');
 module.exports = {
     entry: './client/index.js',
     mode: 'production',
-    performance: {
-        maxEntrypointSize: 250000
-    },
     output: {
         path: path.resolve(__dirname, 'build'),
         publicPath: '/',
@@ -25,6 +22,7 @@ module.exports = {
             },
             {
               test: /\.s[ac]ss$/i,
+              exclude: /node_modules/,
               use: [
                   { loader: 'style-loader' },
                   { loader: 'css-loader' },
@@ -32,5 +30,5 @@ module.exports = {
               ]
             }
         ]
-    }
+    },
 }
